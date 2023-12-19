@@ -1,0 +1,26 @@
+
+button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+    cursor: pointer;
+}
+
+.btn--start{
+    background: rgb(250,0,0);
+    background: linear-gradient(90deg, rgba(250,0,0,1) 0%, rgba(255,255,255,1) 50%, rgba(0,255,71,1) 100%);
+    
+    background: $transparent;
+    width: 181px;
+    height: 36px;
+    border-radius: 3px;
+    border: 4px solid white;
+}
+
+.btn--continue{
+    background-color: $transparent;
+    border: none;
+}
